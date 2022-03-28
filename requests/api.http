@@ -1,0 +1,6 @@
+POST http://shpie.herokuapp.com/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.bing.com/?toWww=1&redig=2D98FF8417734A739ECC083E1276BDA4"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-urlshortener-service",
+  "version": "1.0.0",
+  "description": "Backend api for a Url Shortener",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-180Memes/UrlShortener-Backend.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Agbakosi Adeoluwa ( Dev-180Memes )",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-180Memes/UrlShortener-Backend/issues"
+  },
+  "homepage": "https://github.com/Dev-180Memes/UrlShortener-Backend#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
