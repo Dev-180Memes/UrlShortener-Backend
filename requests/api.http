@@ -1,4 +1,4 @@
-POST http://shpie.herokuapp.com/api/url/shorten
+POST https://friendly-life-jacket-lion.cyclic.app/
 Content-Type: application/json
 
 {
